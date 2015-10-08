@@ -1,0 +1,3 @@
+FileOpenedAction 1444295722408 TestGrid.java 201 1 1 0
+RefactoringAction 1444295739552 TestGrid.java ADD void testGridSizeNotNegative() METHOD
+EditAction 1444295759696 TestGrid.java 268 2 2 0

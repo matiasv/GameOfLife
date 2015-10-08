@@ -11,10 +11,18 @@ public class Cell {
 		return state;
 	}
 	
-	public void update(int liveNeigbhours) {
+	public void update(int liveNeighbours) {
 		if(this.getState() == "Alive") {
-			updateLiveCell(liveNeigbhours);
+			updateLiveCell(liveNeighbours);
+		} else {
+			updateDeadCell(liveNeighbours);
 		}
+	}
+	
+	private void updateDeadCell(int liveNeighbours) {
+		if(liveNeighbours == 3) {
+			this.state = "Alive";
+		} 
 	}
 	
 	private void updateLiveCell(int liveNeighbours) {
@@ -25,6 +33,10 @@ public class Cell {
 		
 		if(liveNeighbours == 2 || liveNeighbours == 3) {
 			this.state = "Alive";
+		}
+		
+		if(liveNeighbours > 3) {
+			this.state = "Dead";
 		}
 	}
 }

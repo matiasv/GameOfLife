@@ -21,5 +21,44 @@ public class TestCell {
 		cell.update(1);
 		assertEquals("Dead",cell.getState());
 	}
+	
+	@Test
+	public void testLiveCellWith2NeighboursLives() {
+		Cell cell = new Cell("Alive");
+		cell.update(2);
+		assertEquals("Alive",cell.getState());
+	}
+	
+	@Test
+	public void testLiveCellWith3NeighboursLives() {
+		Cell cell = new Cell("Alive");
+		cell.update(3);
+		assertEquals("Alive",cell.getState());
+	}
+	
+	@Test
+	public void testLiveCellWitHMoreThan3NeighboursDies() {
+		Cell cell = new Cell("Alive");
+		cell.update(4);
+		assertEquals("Dead",cell.getState());
+	}
+	
+	@Test
+	public void testDeadCellWith3NeighboursResurects() {
+		Cell cell = new Cell("Dead");
+		cell.update(3);
+		assertEquals("Alive",cell.getState());
+	}
+	
+	@Test
+	public void testDeadCellWithNot3NeighBoursStaysDead() {
+		Cell cell = new Cell("Dead");
+		cell.update(4);
+		assertEquals("Dead",cell.getState());
+		
+		cell = new Cell("Dead");
+		cell.update(2);
+		assertEquals("Dead",cell.getState());
+	}
 
 }

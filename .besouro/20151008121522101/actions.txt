@@ -16,3 +16,6 @@ CompilationAction 1444295904667 Grid.java
 EditAction 1444295920377 Grid.java 375 3 5 0
 RefactoringAction 1444295944043 Grid.java ADD void withinSize(int) METHOD
 EditAction 1444295964198 Grid.java 455 4 6 0
+CompilationAction 1444295967306 Grid.java
+CompilationAction 1444295975360 Grid.java
+EditAction 1444296014316 Grid.java 569 4 7 0

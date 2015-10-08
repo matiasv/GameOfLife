@@ -17,12 +17,14 @@ public class Grid {
 		return size;
 	}
 	
-	private void withinSize(int coord) {
+	private boolean withinSize(int coord) {
 		return coord >= 0 && coord < size;
 	}
 	
 	public Cell getCell(int x, int y) {
-		
+		if(!withinSize(x) || !withinSize(y)) {
+			throw new IllegalArgumentException("Invalid x or y coordinate!");
+		}
 		return grid[x][y];
 	}
 }

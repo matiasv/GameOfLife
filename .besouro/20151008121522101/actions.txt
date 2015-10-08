@@ -14,3 +14,5 @@ RefactoringAction 1444295897366 Grid.java RENAME getCell()=>Cell getCell(int, in
 EditAction 1444295901097 Grid.java 354 3 4 0
 CompilationAction 1444295904667 Grid.java
 EditAction 1444295920377 Grid.java 375 3 5 0
+RefactoringAction 1444295944043 Grid.java ADD void withinSize(int) METHOD
+EditAction 1444295964198 Grid.java 455 4 6 0

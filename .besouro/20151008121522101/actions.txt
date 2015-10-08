@@ -12,3 +12,5 @@ UnitTestSessionAction 1444295797770 org.unioulu.tol.sqatlab.gameoflife.test FAIL
 RefactoringAction 1444295892348 Grid.java ADD Cell getCell() METHOD
 RefactoringAction 1444295897366 Grid.java RENAME getCell()=>Cell getCell(int, int) METHOD
 EditAction 1444295901097 Grid.java 354 3 4 0
+CompilationAction 1444295904667 Grid.java
+EditAction 1444295920377 Grid.java 375 3 5 0

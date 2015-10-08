@@ -12,7 +12,7 @@ public class Cell {
 	}
 	
 	public void update(int liveNeighours) {
-		if(liveNeighbours == 0) {
+		if(liveNeighours == 0) {
 			this.state = "Dead";
 		}
 	}

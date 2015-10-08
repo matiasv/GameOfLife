@@ -31,3 +31,6 @@ EditAction 1444296156347 Cell.java 195 2 2 0
 EditAction 1444296172792 TestCell.java 343 2 2 0
 RefactoringAction 1444296194923 Cell.java ADD void update(int) METHOD
 EditAction 1444296210140 Cell.java 297 3 3 0
+CompilationAction 1444296213337 Cell.java
+CompilationAction 1444296220897 Cell.java
+EditAction 1444296236544 TestCell.java 401 2 4 1

@@ -15,14 +15,16 @@ public class Cell {
 		if(this.getState() == "Alive") {
 			updateLiveCell(liveNeigbhours);
 		}
-		if(liveNeighours == 0) {
-			this.state = "Dead";
-		}
 	}
 	
 	private void updateLiveCell(int liveNeighbours) {
 		if(liveNeighbours < 2) {
 			this.state = "Dead";
+			return;
+		}
+		
+		if(liveNeighbours == 2 || liveNeighbours == 3) {
+			this.state = "Alive";
 		}
 	}
 }

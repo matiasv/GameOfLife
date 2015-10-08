@@ -52,3 +52,7 @@ UnitTestSessionAction 1444296391988 org.unioulu.tol.sqatlab.gameoflife.test FAIL
 RefactoringAction 1444296445106 Cell.java ADD void updateLiveCell() METHOD
 RefactoringAction 1444296458630 Cell.java RENAME updateLiveCell()=>void updateLiveCell(int) METHOD
 EditAction 1444296489201 Cell.java 482 4 5 0
+CompilationAction 1444296492276 Cell.java
+UnitTestCaseAction 1444296505441 TestCell.java OK
+UnitTestSessionAction 1444296505442 org.unioulu.tol.sqatlab.gameoflife.test OK
+EditAction 1444296606312 Cell.java 521 4 5 0

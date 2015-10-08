@@ -47,3 +47,8 @@ RefactoringAction 1444296351142 TestCell.java RENAME testLiveCellWith1=>void tes
 RefactoringAction 1444296358656 TestCell.java RENAME testLiveCellWith1Neigh=>void testLiveCellWith1Neighbour FIELD
 RefactoringAction 1444296362671 TestCell.java RENAME testLiveCellWith1Neighbour=>void testLiveCellWith1NeighbourDies() METHOD
 EditAction 1444296383879 TestCell.java 489 2 6 2
+UnitTestCaseAction 1444296391987 TestCell.java FAIL
+UnitTestSessionAction 1444296391988 org.unioulu.tol.sqatlab.gameoflife.test FAIL
+RefactoringAction 1444296445106 Cell.java ADD void updateLiveCell() METHOD
+RefactoringAction 1444296458630 Cell.java RENAME updateLiveCell()=>void updateLiveCell(int) METHOD
+EditAction 1444296489201 Cell.java 482 4 5 0

@@ -10,4 +10,10 @@ public class Cell {
 	public String getState() {
 		return state;
 	}
+	
+	public void update(int liveNeighours) {
+		if(liveNeighbours == 0) {
+			this.state = "Dead";
+		}
+	}
 }

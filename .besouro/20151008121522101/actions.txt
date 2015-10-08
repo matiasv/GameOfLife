@@ -29,3 +29,5 @@ RefactoringAction 1444296138873 Cell.java ADD Cell(String) METHOD
 RefactoringAction 1444296155393 Cell.java ADD String getState() METHOD
 EditAction 1444296156347 Cell.java 195 2 2 0
 EditAction 1444296172792 TestCell.java 343 2 2 0
+RefactoringAction 1444296194923 Cell.java ADD void update(int) METHOD
+EditAction 1444296210140 Cell.java 297 3 3 0

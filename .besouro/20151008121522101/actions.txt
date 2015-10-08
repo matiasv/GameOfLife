@@ -19,3 +19,12 @@ EditAction 1444295964198 Grid.java 455 4 6 0
 CompilationAction 1444295967306 Grid.java
 CompilationAction 1444295975360 Grid.java
 EditAction 1444296014316 Grid.java 569 4 7 0
+FileOpenedAction 1444296045025 TestCell.java 200 1 1 0
+RefactoringAction 1444296053535 TestCell.java ADD void testLiveC FIELD
+RefactoringAction 1444296058049 TestCell.java RENAME testLiveC=>void testLiveCellWith FIELD
+RefactoringAction 1444296067562 TestCell.java RENAME testLiveCellWith=>void testLiveCellWithNoNeighboursDies() METHOD
+RefactoringAction 1444296071682 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444296085572 Cell.java ADD String state FIELD
+RefactoringAction 1444296138873 Cell.java ADD Cell(String) METHOD
+RefactoringAction 1444296155393 Cell.java ADD String getState() METHOD
+EditAction 1444296156347 Cell.java 195 2 2 0

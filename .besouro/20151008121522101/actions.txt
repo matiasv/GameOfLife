@@ -1,3 +1,14 @@
 FileOpenedAction 1444295722408 TestGrid.java 201 1 1 0
 RefactoringAction 1444295739552 TestGrid.java ADD void testGridSizeNotNegative() METHOD
 EditAction 1444295759696 TestGrid.java 268 2 2 0
+CompilationAction 1444295763253 TestGrid.java
+RefactoringAction 1444295767542 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444295784339 TestGrid.java RENAME testGridSizeNotNegative()=>void testGridSizeNotNegativeOr() METHOD
+RefactoringAction 1444295786356 TestGrid.java RENAME testGridSizeNotNegativeOr()=>void testGridSizeNotNegativeOrZero() METHOD
+CompilationAction 1444295788887 TestGrid.java
+UnitTestCaseAction 1444295797768 TestCell.java FAIL
+UnitTestCaseAction 1444295797768 TestGrid.java FAIL
+UnitTestSessionAction 1444295797770 org.unioulu.tol.sqatlab.gameoflife.test FAIL
+RefactoringAction 1444295892348 Grid.java ADD Cell getCell() METHOD
+RefactoringAction 1444295897366 Grid.java RENAME getCell()=>Cell getCell(int, int) METHOD
+EditAction 1444295901097 Grid.java 354 3 4 0
